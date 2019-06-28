@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-img {
-    width: 100%;
-}
-
 li {
     list-style: none;
 }
@@ -18,8 +14,8 @@ a {
 
 @font-face {
     font-family: 'Open Sans', sans-serif;
-    src: url(/fonts/OpenSans-Bold.woff2);
-    src: url(/fonts/OpenSans-Regular.woff2);
+    src: url(../fonts/OpenSans-Bold.woff2);
+    src: url(../fonts/OpenSans-Regular.woff2);
 }
 
 .visually-hidden {
@@ -108,7 +104,7 @@ a {
 }
 
 .gplay-link::before {
-    content: url(/svg/google-play.svg);
+    content: url(../svg/google-play.svg);
     width: 22px;
     height: 24px;
     position: absolute;
@@ -118,7 +114,7 @@ a {
 }
 
 .app-store-link::before {
-    content: url(/svg/apple_logo_black.svg);
+    content: url(../svg/apple_logo_black.svg);
     width: 20px;
     height: 24px;
     position: absolute;
@@ -136,7 +132,7 @@ a {
     }
 
     .main-header {
-        background-image: url(/img/football_1280.jpg);
+        background-image: url(../img/football_1280.jpg);
     }
 
     .logo {
@@ -208,7 +204,7 @@ a {
     }
 
     .main-header {
-        background-image: url(/img/football_1280.jpg);
+        background-image: url(../img/football_1280.jpg);
     }
 
     .logo {
@@ -279,7 +275,7 @@ a {
     }
 
     .main-header {
-        background-image: url(/img/football_1920.jpg);
+        background-image: url(../img/football_1920.jpg);
     }
 
     .logo {
