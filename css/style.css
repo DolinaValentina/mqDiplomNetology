@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(/fonts/OpenSans-Bold.woff2);
+    src: url(/fonts/OpenSans-Regular.woff2);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.wrapper {
+    width: 280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #090c35;
+    background-image: url(../img/football_767.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.logo {
+    width: 133px;
+    margin: 0 auto;
+    padding-top: 33px; 
+}
+
+.logo-img {
+    fill: #fff;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 136px;
+}
+
+.title-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title-text:last-child {
+    padding-left: 44px;
+    padding-top: 29px;
+}
+
+.offer-links {
+    margin-top: 89px;
+    padding-bottom: 84px;
+}
+
+.offer-link {
+    display: block;
+    max-width: 280px;
+    margin: 0 auto;
+    background-color: #5e42b0;
+    border-radius: 100px;
+    padding-left: 111px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    position: relative;
+}
+
+.offer-link span {
+    font-weight: 700;
+}
+
+.offer-link:last-child {
+    margin-top: 14px;
+}
+
+.gplay-link::before {
+    content: url(/svg/google-play.svg);
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 82px;
+}
+
+.app-store-link::before {
+    content: url(/svg/apple_logo_black.svg);
+    width: 20px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 82px;
+}
+
+@media (min-width: 768px) {
+
+    .wrapper {
+        width: 702px;
+        padding: 0 33px;
+        margin: 0 auto;
+    }
+
+    .main-header {
+        background-image: url(/img/football_1280.jpg);
+    }
+
+    .logo {
+        padding-top: 40px; 
+    }
+
+    .title {
+        margin-top: 181px;
+        padding-left: 57px;
+    }
+
+    .title-text {
+        font-size: 64px;
+    }
+
+    .title-text:last-child {
+        padding-left: 105px;
+        padding-top: 30px;
+    }
+
+    .offer-links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 312px;
+        padding-bottom: 91px;
+    }
+
+    .offer-link {
+       
+        padding-left: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .offer-link:last-child {
+        margin-top: 0px;
+    }
+
+    .gplay-link::before {
+        width: 41px;
+        height: 45px;
+        left: 57px;
+    }
+    
+    .app-store-link::before {
+        width: 36px;
+        height: 42px;
+        left: 41px;
+    }
+
+    .gplay-link {
+        padding-left: 126px;
+        padding-right: 81px;
+    }
+    
+    .app-store-link {
+        padding-left: 104px;
+        padding-right: 65px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .wrapper {
+        width: 702px;
+        padding: 0 33px;
+        margin: 0 auto;
+    }
+
+    .main-header {
+        background-image: url(/img/football_1280.jpg);
+    }
+
+    .logo {
+        padding-top: 40px; 
+    }
+
+    .title {
+        margin-top: 181px;
+        padding-left: 57px;
+    }
+
+    .title-text {
+        font-size: 64px;
+    }
+
+    .title-text:last-child {
+        padding-left: 105px;
+        padding-top: 30px;
+    }
+
+    .offer-links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 312px;
+        padding-bottom: 91px;
+    }
+
+    .offer-link {
+       
+        padding-left: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .offer-link:last-child {
+        margin-top: 0px;
+    }
+
+    .gplay-link::before {
+        width: 41px;
+        height: 45px;
+        left: 57px;
+    }
+    
+    .app-store-link::before {
+        width: 36px;
+        height: 42px;
+        left: 41px;
+    }
+
+    .gplay-link {
+        padding-left: 126px;
+        padding-right: 81px;
+    }
+    
+    .app-store-link {
+        padding-left: 104px;
+        padding-right: 65px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .wrapper {
+        width: 1920px;
+        padding: 0 192px;
+    }
+
+    .main-header {
+        background-image: url(/img/football_1920.jpg);
+    }
+
+    .logo {
+        padding-top: 45px; 
+    }
+
+    .title {
+        margin-top: 295px;
+        padding-left: 1px;
+    }
+
+    .title-text {
+        font-size: 90px;
+    }
+
+    .title-text:last-child {
+        padding-left: 105px;
+        padding-top: 30px;
+    }
+
+    .offer-links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 312px;
+        padding-bottom: 91px;
+    }
+
+    .offer-link {
+       
+        padding-left: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .offer-link:last-child {
+        margin-top: 0px;
+    }
+
+    .gplay-link::before {
+        width: 41px;
+        height: 45px;
+        left: 57px;
+    }
+    
+    .app-store-link::before {
+        width: 36px;
+        height: 42px;
+        left: 41px;
+    }
+
+    .gplay-link {
+        padding-left: 126px;
+        padding-right: 81px;
+    }
+    
+    .app-store-link {
+        padding-left: 104px;
+        padding-right: 65px;
+    }
+}
