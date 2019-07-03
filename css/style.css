@@ -12,11 +12,8 @@ a {
     color: #ffffff;
 }
 
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url(../fonts/OpenSans-Bold.woff2);
-    src: url(../fonts/OpenSans-Regular.woff2);
-}
+/* @import url('/fonts/OpenSans-Bold');
+@import url('/fonts/OpenSans-Regular'); */
 
 .visually-hidden {
     position: absolute;
@@ -64,6 +61,7 @@ a {
 .title-text {
     font-family: "Open Sans", sans-serif;
     font-size: 28px;
+    line-height: 28px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -129,7 +127,6 @@ a {
     .wrapper {
         width: 702px;
         padding: 0 33px;
-        margin: 0 auto;
     }
 
     .main-header {
@@ -140,75 +137,9 @@ a {
         padding-top: 40px; 
     }
 
-    .title {
-        margin-top: 181px;
-        padding-left: 57px;
-    }
-
-    .title-text {
-        font-size: 64px;
-    }
-
-    .title-text:last-child {
-        padding-left: 105px;
-        padding-top: 30px;
-    }
-
-    .offer-links {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 312px;
-        padding-bottom: 91px;
-    }
-
-    .offer-link {
-       
-        padding-left: 0px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        font-size: 14px;
-    }
-
-    .offer-link:last-child {
-        margin-top: 0px;
-    }
-
-    .gplay-link::before {
-        width: 41px;
-        height: 45px;
-        left: 57px;
-    }
-    
-    .app-store-link::before {
-        width: 36px;
-        height: 42px;
-        left: 41px;
-    }
-
-    .gplay-link {
-        padding-left: 126px;
-        padding-right: 81px;
-    }
-    
-    .app-store-link {
-        padding-left: 104px;
-        padding-right: 65px;
-    }
-}
-
-@media (min-width: 768px) {
-
-    .wrapper {
-        width: 702px;
-        padding: 0 33px;
-    }
-
-    .main-header {
-        background-image: url(../img/football_1280.jpg);
-    }
-
-    .logo {
-        padding-top: 40px; 
+    .logo-img {
+        width: 205px;
+        height: 56px;
     }
 
     .title {
@@ -218,6 +149,7 @@ a {
 
     .title-text {
         font-size: 64px;
+        line-height: 64px;
     }
 
     .title-text:last-child {
@@ -282,6 +214,11 @@ a {
         padding-top: 45px; 
     }
 
+    .logo-img {
+        width: 191px;
+        height: 52px;
+    }
+
     .title {
         margin-top: 295px;
         padding-left: 1px;
@@ -289,42 +226,40 @@ a {
 
     .title-text {
         font-size: 90px;
+        line-height: 90px;
     }
 
     .title-text:last-child {
-        padding-left: 105px;
-        padding-top: 30px;
+        padding-left: 450px;
+        padding-top: 25px;
     }
 
     .offer-links {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 312px;
-        padding-bottom: 91px;
+        margin-top: 222px;
+        padding-bottom: 110px;
+        width: 672px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
     }
 
     .offer-link {
-       
+        margin: 0;
         padding-left: 0px;
         padding-top: 25px;
         padding-bottom: 25px;
-        font-size: 14px;
-    }
-
-    .offer-link:last-child {
-        margin-top: 0px;
     }
 
     .gplay-link::before {
-        width: 41px;
-        height: 45px;
+        width: 40px;
+        height: 50px;
         left: 57px;
     }
     
     .app-store-link::before {
-        width: 36px;
-        height: 42px;
-        left: 41px;
+        width: 42px;
+        height: 48px;
+        left: 38px;
     }
 
     .gplay-link {
@@ -333,7 +268,69 @@ a {
     }
     
     .app-store-link {
-        padding-left: 104px;
-        padding-right: 65px;
+        padding-left: 105px;
+        padding-right: 61px;
     }
+}
+
+.heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.athlets-img {
+    display: block;
+    width: 192px;
+    margin: 0 auto;
+}
+
+.list {
+    margin-top: 30px;
+}
+
+.item-wrapper {
+    display: flex;
+}
+
+.item-num {
+    align-self: center;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    width: 15px;
+    height: 11px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    position: relative;
+}
+
+.item-num::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 15px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #5e42b0;
+}
+
+.item-title {
+    color: #c1c1c1;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.item-discription {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
 }

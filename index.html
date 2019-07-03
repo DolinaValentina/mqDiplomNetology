@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
@@ -13,8 +14,11 @@
 
   <header class="main-header">
     <div class="wrapper">
+      <h1 class="visually-hidden">
+          Official site of surface application
+      </h1>
       <div class="logo">
-        <svg class="logo-img" viewBox="0 0 972 264" xmlns="http://www.w3.org/2000/svg" width="133px" height="36px">
+        <svg class="logo-img" viewBox="0 0 972 264" xmlns="http://www.w3.org/2000/svg" width="133" height="36">
           <g fill-rule="evenodd">
             <g fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round">
               <path d="M115.5 36.848v190.304L253.03 132 115.5 36.848zM282.112 142.28l-172 119c-8.29 5.736-19.612-.198-19.612-10.28V13c0-10.082 11.321-16.016 19.612-10.28l172 119c7.184 4.97 7.184 15.59 0 20.56z"/>
@@ -41,7 +45,105 @@
       </div>
     </div>
   </header>
- 
+
+  <main>
+    <section class="athlets">
+      <div class="wrapper">
+        <h2 class="athlets-heading heading">
+          Athlets
+        </h2>
+        <picture>
+          <source media="(min-width: 1920px)" srcset="/img/footballer_566.png">
+          <source media="(min-width: 768px)" srcset="/img/footballer_497.png">
+          <img class="athlets-img" src="/img/footballer_192.png" alt="footballer">
+        </picture>
+        <ol class="athlets-list list">
+          <li class="athlets-item item">
+            <div class="item-wrapper">
+              <span class="item-num">01</span>
+              <h3 class="item-title">
+                Connection
+              </h3>
+           </div>
+            <p class="item-discription">
+              Connect with coaches directly, you can ping coaches to view profile.
+            </p>
+          </li>
+          <li class="athlets-item">
+            <div class="item-wrapper">
+              <span class="item-num">02</span>
+              <h3 class="item-title">
+                Collaboration
+              </h3>
+            </div>
+            <p class="item-discription">
+              Work with other student athletes to  increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.
+            </p>
+          </li>
+          <li class="athlets-item">
+            <div class="item-wrapper">
+              <span class="item-num">03</span>
+              <h3 class="item-title">
+                Growth
+              </h3>
+            </div>
+            <p class="item-discription">
+              Resources and tools for you to get better as a student Athelte. Access to training classes, tutor sessions, etc
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="athlets players">
+      <div class="wrapper">
+        <h2 class="players-heading heading">
+          Players
+        </h2>
+        <picture class="players-img">
+          <source media="(min-width: 1920px)" srcset="/img/basketballer_991.png">
+          <source media="(min-width: 768px)" srcset="/img/basketballer_436.png">
+          <img src="/img/basketballer_302.png" alt="basketballer">
+        </picture>
+        <ol class="players-list list">
+          <li class="players-item item">
+            <div class="item-wrapper">
+              <span class="item-num">01</span>
+              <h3 class="item-title">
+                Connection
+              </h3>
+            </div>
+            <p class="item-discription">
+              Connect with talented athlete directly, you can watch their skills through video showreels directly from Surface 1.
+            </p>
+          </li>
+          <li class="players-item">
+            <div class="item-wrapper">
+              <span class="item-num">02</span>
+              <h3 class="item-title">
+                Collaboration
+              </h3>
+            </div>
+            <p class="item-discription">
+              Work with recruiter to increase your chances of findingtalented athlete.
+            </p>
+          </li>
+          <li class="players-item">
+            <div class="item-wrapper">
+              <span class="item-num">03</span>
+              <h3 class="item-title">
+                Growth
+              </h3>
+            </div>
+            <p class="item-discription">
+              Save your time, recruit proper athlets for your team. 
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
 </body>
 
 </html>
