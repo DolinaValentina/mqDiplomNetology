@@ -29,9 +29,7 @@ a {
   }
 
 .wrapper {
-    width: 280px;
-    padding-left: 20px;
-    padding-right: 20px;
+    min-width: 280px;
     margin: 0 auto;
 }
 
@@ -56,6 +54,8 @@ a {
 
 .title {
     margin-top: 136px;
+    max-width: 450px;
+    margin: 136px auto 0;
 }
 
 .title-text {
@@ -64,10 +64,12 @@ a {
     line-height: 28px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-left: 6.25%;
 }
 
 .title-text:last-child {
-    padding-left: 44px;
+    padding-left: 20%;
+    padding-right: 6.25%;
     padding-top: 29px;
 }
 
@@ -82,6 +84,7 @@ a {
     margin: 0 auto;
     background-color: #5e42b0;
     border-radius: 100px;
+    box-sizing: border-box;
     padding-left: 111px;
     padding-top: 9px;
     padding-bottom: 9px;
@@ -125,8 +128,7 @@ a {
 @media (min-width: 768px) {
 
     .wrapper {
-        width: 702px;
-        padding: 0 33px;
+        min-width: 702px;
     }
 
     .main-header {
@@ -134,7 +136,8 @@ a {
     }
 
     .logo {
-        padding-top: 40px; 
+        padding-top: 40px;
+        width: 205px;
     }
 
     .logo-img {
@@ -144,28 +147,32 @@ a {
 
     .title {
         margin-top: 181px;
-        padding-left: 57px;
+        max-width: 1200px;
     }
 
     .title-text {
         font-size: 64px;
         line-height: 64px;
+        padding-left: 11.7%;
     }
 
     .title-text:last-child {
-        padding-left: 105px;
+        padding-left: 25.4%;
+        padding-right: 11.7%;
         padding-top: 30px;
     }
 
     .offer-links {
         display: flex;
-        justify-content: space-around;
-        margin-top: 312px;
+        justify-content: center;
+        margin: 312px auto 0;
         padding-bottom: 91px;
     }
 
     .offer-link {
-       
+        margin: 0 15px;
+        max-width: 311px;
+        box-sizing: border-box;
         padding-left: 0px;
         padding-top: 25px;
         padding-bottom: 25px;
@@ -202,8 +209,7 @@ a {
 @media (min-width: 1920px) {
 
     .wrapper {
-        width: 1536px;
-        padding: 0 192px;
+        max-width: 1920px;
     }
 
     .main-header {
@@ -212,6 +218,7 @@ a {
 
     .logo {
         padding-top: 45px; 
+        width: 191px;
     }
 
     .logo-img {
@@ -221,33 +228,29 @@ a {
 
     .title {
         margin-top: 295px;
-        padding-left: 1px;
+        max-width: 100%;
     }
 
     .title-text {
         font-size: 90px;
         line-height: 90px;
+        padding-left: 10%;
     }
 
     .title-text:last-child {
         padding-left: 450px;
         padding-top: 25px;
+        padding-left: 33.5%;
+        padding-right: 10%;
     }
 
     .offer-links {
         margin-top: 222px;
         padding-bottom: 110px;
-        width: 672px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: space-between;
     }
 
     .offer-link {
-        margin: 0;
-        padding-left: 0px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        margin: 0 25px;
     }
 
     .gplay-link::before {
