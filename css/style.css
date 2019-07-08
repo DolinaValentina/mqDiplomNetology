@@ -16,6 +16,11 @@ a {
     color: #ffffff;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 /* @import url('/fonts/OpenSans-Bold');
 @import url('/fonts/OpenSans-Regular'); */
 
@@ -495,5 +500,134 @@ a {
         line-height: 28px;
         padding-top: 32px;
         padding-bottom: 55px;
+    }
+}
+
+.function-img {
+    position: relative;
+}
+
+.function-num {
+    width: 70px;
+    height: 70px;
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    bottom: -8px;
+    left: 20px;
+}
+
+.function-num::after {
+    content: "";
+    position: absolute;
+    bottom: 22px;
+    display: block;
+    width: 15px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    opacity: 0.3;
+}
+
+.function-title {
+    color: #e7e7e7;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.function-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    margin: 30px 20px 77px;
+}
+
+@media (min-width: 768px) {
+    .function-num {
+        width: 116px;
+        height: 116px;
+        font-size: 24px;
+        bottom: -33px;
+        left: 37px;
+    }
+    
+    .function-num::after {
+        bottom: 40px;
+        width: 25px;
+    }
+    
+    .function-title {
+        font-size: 80px;
+        margin-top: 54px;
+        margin-left: 32px;
+    }
+    
+    .function-text {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 1.2px;
+        margin: 37px 32px 100px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .function-item {
+        display: flex;
+    }
+
+    .find-contact {
+        flex-direction: row-reverse;
+    }
+
+    .function-img {
+        width: 50%;
+    }
+
+    .content-wrapper {
+        width: 50%;
+    }
+
+    .function-num {
+        width: 168px;
+        height: 155px;
+        top: 211px;
+        left: 100%;
+        margin-left: -84px;
+    }
+
+    .find-contact .function-num {
+        left: 0;
+    }
+    
+    .function-num::after {
+        bottom: 60px;
+        width: 25px;
+    }
+    
+    .function-title {
+        font-size: 80px;
+        margin-top: 260px;
+        margin-left: 128px;
+    }
+    
+    .function-text {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 1.2px;
+        margin: 116px 192px 0 128px;
+    }
+
+    .find-contact .function-title,
+    .find-contact .function-text {
+        margin-left: 192px;
     }
 }
