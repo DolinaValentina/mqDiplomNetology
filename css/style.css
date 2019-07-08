@@ -726,3 +726,8 @@ img {
     text-transform: uppercase;
     color: #9b8ec1;
 }
+
+.footer-logo {
+    padding-bottom: 10px;
+    padding-top: 0;
+}
