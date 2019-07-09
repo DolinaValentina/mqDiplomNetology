@@ -35,7 +35,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 .wrapper {
     min-width: 280px;
@@ -53,7 +53,7 @@ img {
 .logo {
     width: 133px;
     margin: 0 auto;
-    padding-top: 33px; 
+    padding-top: 33px;
 }
 
 .logo-img {
@@ -135,7 +135,6 @@ img {
 }
 
 @media (min-width: 768px) {
-
     .wrapper {
         min-width: 702px;
     }
@@ -197,7 +196,7 @@ img {
         height: 45px;
         left: 57px;
     }
-    
+
     .app-store-link::before {
         width: 36px;
         height: 42px;
@@ -208,7 +207,7 @@ img {
         padding-left: 126px;
         padding-right: 81px;
     }
-    
+
     .app-store-link {
         padding-left: 104px;
         padding-right: 65px;
@@ -222,7 +221,7 @@ img {
     }
 
     .logo {
-        padding-top: 45px; 
+        padding-top: 45px;
         width: 191px;
     }
 
@@ -263,7 +262,7 @@ img {
         height: 50px;
         left: 57px;
     }
-    
+
     .app-store-link::before {
         width: 42px;
         height: 48px;
@@ -274,7 +273,7 @@ img {
         padding-left: 126px;
         padding-right: 81px;
     }
-    
+
     .app-store-link {
         padding-left: 105px;
         padding-right: 61px;
@@ -386,6 +385,7 @@ img {
 }
 
 @media (min-width: 768px) {
+
     .athlets,
     .players {
         position: relative;
@@ -507,6 +507,10 @@ img {
     position: relative;
 }
 
+.num-wrapper {
+    position: relative;
+}
+
 .function-num {
     width: 70px;
     height: 70px;
@@ -559,18 +563,18 @@ img {
         bottom: -33px;
         left: 37px;
     }
-    
+
     .function-num::after {
         bottom: 40px;
         width: 25px;
     }
-    
+
     .function-title {
         font-size: 80px;
         margin-top: 54px;
         margin-left: 32px;
     }
-    
+
     .function-text {
         font-size: 24px;
         line-height: 28px;
@@ -588,7 +592,7 @@ img {
         flex-direction: row-reverse;
     }
 
-    .function-img {
+    .num-wrapper {
         width: 50%;
     }
 
@@ -607,18 +611,18 @@ img {
     .find-contact .function-num {
         left: 0;
     }
-    
+
     .function-num::after {
         bottom: 60px;
         width: 25px;
     }
-    
+
     .function-title {
         font-size: 80px;
         margin-top: 230px;
         margin-left: 128px;
     }
-    
+
     .function-text {
         font-size: 24px;
         line-height: 28px;
@@ -653,7 +657,7 @@ img {
     height: 74px;
     border-radius: 15px;
     margin: 0 auto;
-    }
+}
 
 .bubble-img {
     width: 50px;
@@ -688,39 +692,39 @@ img {
     .main-footer {
         background-image: url(../img/game_1280.jpg);
     }
-    
+
     .footer-call {
         padding-top: 126px;
     }
-    
+
     .logo-bubble {
         width: 130px;
         height: 137px;
         border-radius: 25px;
-        }
-    
+    }
+
     .bubble-img {
         width: 100px;
         height: 100px;
     }
-    
+
     .footer-text {
         margin: 0 auto;
         margin-top: 82px;
         text-align: center;
     }
-    
+
     .appeal-text {
         font-size: 80px;
         line-height: 60px;
     }
-    
+
     .motivation-text {
         font-size: 36px;
         line-height: 60px;
         padding-top: 15px;
     }
-    
+
     .footer-logo {
         padding-bottom: 24px;
         padding-top: 0;
@@ -736,39 +740,39 @@ img {
     .main-footer {
         background-image: url(../img/game_1280.jpg);
     }
-    
+
     .footer-call {
         padding-top: 229px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .logo-bubble {
         width: 130px;
         height: 137px;
         border-radius: 25px;
         margin: 0;
         padding: 0;
-        }
-    
+    }
+
     .bubble-img {
         width: 100px;
         height: 100px;
     }
-    
+
     .footer-text {
         margin: 0;
         padding-left: 35px;
         text-align: start;
     }
-    
+
     .motivation-text {
         font-size: 30px;
         line-height: 30px;
         padding-top: 20px;
     }
-    
+
     .footer-logo {
         padding-bottom: 52px;
     }
