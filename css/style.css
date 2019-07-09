@@ -579,54 +579,6 @@ img {
     }
 }
 
-/* @media (min-width: 1200px) {
-    .function-item {
-        display: flex;
-    }
-
-    .find-contact {
-        flex-direction: row-reverse;
-    }
-
-    .function-img {
-        width: 50%;
-    }
-
-    .content-wrapper {
-        width: 50%;
-    }
-
-    .function-num {
-        width: 168px;
-        height: 155px;
-        top: 150px;
-        left: 100%;
-        margin-left: -84px;
-    }
-
-    .find-contact .function-num {
-        left: 0;
-    }
-    
-    .function-num::after {
-        bottom: 60px;
-        width: 25px;
-    }
-    
-    .function-title {
-        font-size: 80px;
-        margin-top: 120px;
-        margin-left: 100px;
-    }
-    
-    .function-text {
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 1.2px;
-        margin: 40px 40px 0 100px;
-    }
-} */
-
 @media (min-width: 1920px) {
     .function-item {
         display: flex;
@@ -730,4 +682,99 @@ img {
 .footer-logo {
     padding-bottom: 10px;
     padding-top: 0;
+}
+
+@media (min-width: 768px) {
+    .main-footer {
+        background-image: url(../img/game_1280.jpg);
+    }
+    
+    .footer-call {
+        padding-top: 126px;
+    }
+    
+    .logo-bubble {
+        width: 130px;
+        height: 137px;
+        border-radius: 25px;
+        }
+    
+    .bubble-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .footer-text {
+        margin: 0 auto;
+        margin-top: 82px;
+        text-align: center;
+    }
+    
+    .appeal-text {
+        font-size: 80px;
+        line-height: 60px;
+    }
+    
+    .motivation-text {
+        font-size: 36px;
+        line-height: 60px;
+        padding-top: 15px;
+    }
+    
+    .footer-logo {
+        padding-bottom: 24px;
+        padding-top: 0;
+    }
+
+    .main-footer .offer-links {
+        margin-top: 287px;
+        padding-bottom: 55px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .main-footer {
+        background-image: url(../img/game_1280.jpg);
+    }
+    
+    .footer-call {
+        padding-top: 229px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo-bubble {
+        width: 130px;
+        height: 137px;
+        border-radius: 25px;
+        margin: 0;
+        padding: 0;
+        }
+    
+    .bubble-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .footer-text {
+        margin: 0;
+        padding-left: 35px;
+        text-align: start;
+    }
+    
+    .motivation-text {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 20px;
+    }
+    
+    .footer-logo {
+        padding-bottom: 52px;
+    }
+
+    .main-footer .offer-links {
+        margin-top: 163px;
+        padding-bottom: 262px;
+    }
 }
