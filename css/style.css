@@ -595,16 +595,19 @@ img {
 
     .num-wrapper {
         width: 50%;
+        display: flex;
     }
 
     .content-wrapper {
         width: 50%;
+        display: flex;
+        flex-direction: column;
     }
 
     .function-num {
         width: 168px;
         height: 155px;
-        top: 211px;
+        top: 25%;
         left: 100%;
         margin-left: -84px;
     }
@@ -619,21 +622,36 @@ img {
     }
 
     .function-title {
-        font-size: 80px;
-        margin-top: 230px;
-        margin-left: 128px;
+        font-size: 70px;
+        padding-left: 20%;
+        padding-right: 5%;
+        margin-left: 0;
+        margin-top: 15%;
     }
 
     .function-text {
         font-size: 24px;
         line-height: 28px;
         letter-spacing: 1.2px;
-        margin: 116px 120px 0 128px;
+        padding-left: 20%;
+        padding-right: 5%;
+        margin: 0;
     }
 
     .find-contact .function-title,
     .find-contact .function-text {
-        margin-left: 192px;
+        margin: 0;
+        padding: 0;
+        padding-left: 5%;
+        padding-right: 20%;
+    }
+
+    .find-contact .function-title {
+        padding-top: 15%;
+    }
+
+    .find-contact .function-text {
+        padding-bottom: 5%;
     }
 }
 
