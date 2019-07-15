@@ -37,9 +37,9 @@ img {
     overflow: hidden;
 }
 
-.wrapper {
+.page {
     min-width: 280px;
-    margin: 0 auto;
+    overflow: hidden;
 }
 
 .main-header {
@@ -214,7 +214,7 @@ img {
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 961px) {
 
     .main-header {
         background-image: url(../img/football_1920.jpg);
@@ -369,6 +369,7 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .item-discription {
@@ -448,20 +449,20 @@ img {
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 961px) {
 
     .athlets-img {
         width: 566px;
         height: 908px;
-        top: -50px;
-        left: 397px;
+        top: 0;
+        right: 400px;
     }
 
     .players-img {
         width: 991px;
         height: 815px;
         top: -70px;
-        right: 125px;
+        left: 420px;
     }
 
     .athlets-heading,
@@ -583,7 +584,7 @@ img {
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 961px) {
     .function-item {
         display: flex;
     }
@@ -736,7 +737,7 @@ img {
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 961px) {
     .main-footer {
         background-image: url(../img/game_1280.jpg);
     }
