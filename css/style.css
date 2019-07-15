@@ -40,6 +40,8 @@ img {
 .page {
     min-width: 280px;
     overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .main-header {
@@ -765,6 +767,9 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 1000px;
+        margin: 0 auto;
+        word-break: break-all;
     }
 
     .logo-bubble {
@@ -773,6 +778,7 @@ img {
         border-radius: 25px;
         margin: 0;
         padding: 0;
+        flex-shrink: 0;
     }
 
     .bubble-img {
@@ -783,7 +789,13 @@ img {
     .footer-text {
         margin: 0;
         padding-left: 35px;
+        padding-right: 35px;
         text-align: start;
+        width: 100%; 
+    }
+
+    .appeal-text {
+        display: flex;
     }
 
     .motivation-text {
